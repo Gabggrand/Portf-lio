@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    .sobre-caixa {
+        width: 90%;
+        height: auto;
+    }
+
+    .projetos-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .sobre-caixa {
+        width: 90%;
+        height: auto;
+    }
+
+    .projetos-card {
+        width: 90%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 100px);
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .projetos-caixa {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos-card {
+        width: 80%;
+        height: auto;
+    }
+}
