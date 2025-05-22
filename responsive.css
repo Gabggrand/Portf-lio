@@ -7,12 +7,47 @@
     .projetos-card {
         width: 90%;
     }
+
+    .menu-link:hover::after {
+        width: 0 !important;
+    }
+
+    .menu-link:hover {
+        color: inherit;
+        background: none;
+        text-decoration: none;
+        cursor: default;
+    }
 }
 
 @media (max-width: 480px) {
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.1rem;
+    }
+
     .menu {
         gap: 5px;
         font-size: 14px;
+    }
+
+    .menu-link:hover::after {
+        width: 0 !important;
+    }
+
+    .menu-link:hover {
+        color: inherit;
+        background: none;
+        text-decoration: none;
+        cursor: default;
     }
 
     .sobre-caixa {
