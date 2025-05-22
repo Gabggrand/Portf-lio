@@ -157,7 +157,7 @@
             const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
             const msgFormatada = encodeURIComponent(texto);
 
-            const url = `https://web.whatsapp.com/send?phone=${telefone}&text=${msgFormatada}`;
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
 
             window.location.href = url;
         }
